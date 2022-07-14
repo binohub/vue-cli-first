@@ -1,7 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <TitleMain msg="Welcome to Your Vue.js App"/>
+
+    <div class="jumbotron jumbotron-fluid bg-dark">
+      <div class="container">
+        <h1 class="display-4">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div>
+
+    <TitleMain msg="Welcome to Your Vue.js App" />
+
   </div>
 </template>
 
